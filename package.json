@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@storybook/addon-knobs": "^3.4.11",
     "@storybook/addon-storyshots": "^3.4.11",
     "primereact": "^2.0.0-beta.3",
     "react": "^16.5.0",
@@ -18,7 +19,8 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public",
-    "chromatic": "CHROMATIC_APP_CODE=rnsnywr2t2f chromatic test  --do-not-start"
+    "chromatic": "CHROMATIC_APP_CODE=rnsnywr2t2f chromatic test  --do-not-start",
+    "build-storybook": "build-storybook -c .storybook"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^3.4.10",
